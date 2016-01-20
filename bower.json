@@ -1,0 +1,31 @@
+{
+  "name": "jquery-touches",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mixed/jquery-touches/",
+  "authors": [
+    "YongWoo Jeon<yongwoo.jeon@navercorp.com>"
+  ],
+  "description": "jQuery hooks that It easy use touches event object.",
+  "main": "touches.js",
+  "keywords": [
+    "jQuery",
+    "touches",
+    "changedTouches",
+    "targetTouches",
+    "hooks"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "/build",
+    "/dist",
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}
