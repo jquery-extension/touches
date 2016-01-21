@@ -24,7 +24,7 @@ $("#some").on("touchmove",function(e){
 ```
 bower install jquery-touches
 ```
-```
+```html
 <script src="jquery.js"></script>
 <script src="../bower_components/jquery-touches/jquery-touches.js"></script>
 ```
