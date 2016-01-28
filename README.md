@@ -2,6 +2,7 @@
 It is `fixHooks` in event. You easy use touches object in touch event. 
 
 # Why use it?
+## as-is
 If you do not use it you have to use originalEvent property in event object.
 ```js
 $("#some").on("touchmove",function(e){
@@ -10,6 +11,7 @@ $("#some").on("touchmove",function(e){
 	e.originalEvent.targetTouches;
 });
 ```
+## to-be
 You can easy use touches object when you use `touchstart`,`touchmove`, `touchend`.
 ```js
 $("#some").on("touchmove",function(e){
