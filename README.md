@@ -1,5 +1,5 @@
 # jquery-touches
-It easy use touches object in touch event. 
+It is `fixHooks` in event. You easy use touches object in touch event. 
 
 # Why use it?
 If you do not use it you have to use originalEvent property in event object.
@@ -26,5 +26,5 @@ bower install jquery-touches
 ```
 ```html
 <script src="jquery.js"></script>
-<script src="../bower_components/jquery-touches/jquery-touches.js"></script>
+<script src="../bower_components/jquery-touches/touches.js"></script>
 ```
